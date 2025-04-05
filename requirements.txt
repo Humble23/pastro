@@ -1,0 +1,9 @@
+# Core dependencies
+PyQt6==6.6.1
+watchdog==3.0.0
+pathlib==1.0.1
+
+# Development dependencies
+pytest==7.4.4
+black==24.1.1
+flake8==7.0.0 
