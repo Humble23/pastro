@@ -25,7 +25,7 @@ Um aplicativo desktop desenvolvido em Python para organização automática de p
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
+git clone git@github.com:Humble23/pastro.git
 cd pastro
 ```
 
