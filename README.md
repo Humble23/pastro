@@ -1,5 +1,7 @@
 # Sistema Organizador de Pastas (Pastro)
 
+![Logo do Pastro](src/resources/logo.png)
+
 Um aplicativo desktop desenvolvido em Python para organização automática de pastas e arquivos, com interface gráfica intuitiva e categorização inteligente.
 
 ## 🚀 Funcionalidades
