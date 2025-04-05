@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+pastro.egg-info/PKG-INFO
+pastro.egg-info/SOURCES.txt
+pastro.egg-info/dependency_links.txt
+pastro.egg-info/entry_points.txt
+pastro.egg-info/requires.txt
+pastro.egg-info/top_level.txt
+src/auto_classifier.py
+src/main.py

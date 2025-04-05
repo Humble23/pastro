@@ -1,31 +1,36 @@
 # Sistema Organizador de Pastas (Pastro)
 
-Um aplicativo desktop desenvolvido em Python para organização automática de pastas e arquivos.
+Um aplicativo desktop desenvolvido em Python para organização automática de pastas e arquivos, com interface gráfica intuitiva e categorização inteligente.
 
 ## 🚀 Funcionalidades
 
-- **Interface Gráfica Intuitiva**
-  - Seleção de pastas para organização
-  - Visualização em árvore dos arquivos
-  - Preview das alterações antes de aplicar
-  - Barra de progresso para acompanhamento
+- **Interface Gráfica (PyQt6)**
+  - Seleção de pastas
+  - Visualização em árvore
+  - Preview de alterações
+  - Barra de progresso
+  - Splash screen
 
 - **Classificação Automática**
   - Identificação de tipos de arquivos
   - Categorização por extensão
   - Suporte para múltiplos formatos
 
+- **Distribuição**
+  - Executável standalone
+  - Ícone personalizado
+  - Recursos embutidos
+
 ## 📋 Pré-requisitos
 
 - Python 3.13 ou superior
-- PyQt6
-- Outras dependências listadas em `requirements.txt`
+- Git (para clonar o repositório)
 
 ## 🔧 Instalação
 
 1. Clone o repositório:
 ```bash
-git clone git@github.com:Humble23/pastro.git
+git clone [URL_DO_REPOSITÓRIO]
 cd pastro
 ```
 
@@ -33,6 +38,22 @@ cd pastro
 ```bash
 pip install -r requirements.txt
 ```
+
+## 🛠️ Desenvolvimento
+
+O projeto segue as seguintes regras de desenvolvimento:
+
+- **Código**
+  - Código em inglês
+  - Documentação em português
+  - Segue PEP 8
+  - Usa type hints
+
+- **Interface**
+  - Design responsivo
+  - Feedback visual claro
+  - Mensagens em português
+  - Ícones intuitivos
 
 ## 🎮 Como Usar
 
@@ -49,7 +70,7 @@ python src/main.py
 
 ## 📦 Distribuição
 
-O projeto inclui um arquivo `pastro.spec` para gerar o executável usando PyInstaller:
+O projeto usa PyInstaller para gerar um executável standalone:
 
 ```bash
 cd src
@@ -58,15 +79,43 @@ pyinstaller pastro.spec
 
 O executável será gerado em `src/dist/Pastro.exe`
 
-## 📝 Notas
+### Recursos
+- Arquivos de recursos em `src/resources`
+- PNG para imagens com transparência
+- ICO para ícones do Windows
+- Todos os recursos incluídos no executável
 
-- O programa mantém um backup da estrutura original
-- As alterações podem ser visualizadas antes de serem aplicadas
-- O processo de organização é detalhado em logs
+## 🔄 Próximos Passos
+
+1. **Melhorias de Performance**
+   - Otimização do classificador
+   - Cache de resultados
+   - Processamento assíncrono
+
+2. **Novas Funcionalidades**
+   - Regras personalizadas
+   - Filtros avançados
+   - Plugins/extensões
+
+3. **Documentação**
+   - Manual do usuário
+   - Guia de desenvolvimento
+   - Exemplos de uso
 
 ## 🤝 Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Instale as dependências: `pip install -r requirements.txt`
+3. Faça suas alterações seguindo as regras de desenvolvimento
+4. Execute os testes e verificações:
+   ```bash
+   black src/
+   flake8 src/
+   pytest
+   ```
+5. Envie um Pull Request
 
 ## 📄 Licença
 

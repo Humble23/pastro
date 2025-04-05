@@ -1,0 +1,2 @@
+[console_scripts]
+pastro = src.main:main
