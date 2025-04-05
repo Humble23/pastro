@@ -1,1 +1,0 @@
-('C:\\laragon\\www\\pastro\\build\\folder_organizer\\PYZ-00.pyz', [])

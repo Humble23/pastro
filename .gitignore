@@ -36,8 +36,8 @@ ENV/
 # Arquivos específicos do PyInstaller
 *.manifest
 *.spec
-build/
-dist/
+**/build/
+**/dist/
 
 # Arquivos de log
 *.log
@@ -47,7 +47,8 @@ dist/
 Thumbs.db
 
 # Arquivos específicos do projeto
-src/build/
-src/dist/
-src/__pycache__/
-src/*.spec 
+**/build/
+**/dist/
+**/__pycache__/
+**/*.spec
+**/*.pyc 
